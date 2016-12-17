@@ -12,11 +12,11 @@
 */
 
 Route::group(['prefix' => 'files'], function() {
-    // File routes go here
+    Route::get('/', 'FilesController@index');
 });
 
 Route::group(['prefix' => 'forums'], function() {
-    // Forum routes go here
+    Route::get('/', 'ForumsController@index');
 });
 
 Route::get('/', 'HomeController@index');
