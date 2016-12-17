@@ -17,5 +17,9 @@ elixir((mix) => {
     mix.sass('app.scss')
     	.version('css/app.css')
     	.webpack('app.js')
-    	.version('js/app.js');
+    	.version('js/app.js')
+        .copy('resources/assets/images', 'public/images')
+        .version('public/images')
+        .copy('node_modules/font-awesome/fonts', 'public/fonts')
+        .version('public/fonts');
 });
