@@ -25,6 +25,9 @@
                             <a class="nav-item is-tab" href="{{ url('/files') }}">
                                 Files
                             </a>
+                            <a class="nav-item is-tab" href="{{ url('/tracker') }}">
+                                Bug Tracker
+                            </a>
                         </div>
 
                         <!--

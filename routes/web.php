@@ -19,4 +19,8 @@ Route::group(['prefix' => 'forums'], function() {
     Route::get('/', 'ForumsController@index');
 });
 
+Route::group(['prefix' => 'tracker'], function () {
+    Route::get('/', 'TrackerController@index');
+});
+
 Route::get('/', 'HomeController@index');
