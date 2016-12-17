@@ -11,6 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::group(['prefix' => 'files'], function() {
+    // File routes go here
 });
+
+Route::group(['prefix' => 'forums'], function() {
+    // Forum routes go here
+});
+
+Route::get('/', 'HomeController@index');
