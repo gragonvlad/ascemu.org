@@ -5,7 +5,7 @@
 </head>
 <body>
     <div id="root">
-        <section class="hero is-info">
+        <section class="hero is-dark">
             <div class="hero-head">
                 <div class="container">
                     <nav class="nav">
@@ -57,7 +57,7 @@
                 </div>
             </div>
 
-            <div class="hero-body">
+            {{-- <div class="hero-body">
                 <div class="container">
                     <div class="columns is-vcentered">
                         <div class="column">
@@ -69,7 +69,7 @@
                             </p>
                         </div>
                 </div>
-            </div>
+            </div> --}}
         </section>
 
         <div class="container">
